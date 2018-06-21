@@ -7,7 +7,7 @@ def lease_coins(cents)
     cents -= num*amount
     least_coins[koins] = num
   end
-return least_coins
+
 end
 
  puts lease_coins(29)
